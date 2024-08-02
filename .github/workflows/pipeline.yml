@@ -68,7 +68,7 @@ jobs:
   deploy-to-testing:
     if: startsWith(github.ref, 'refs/heads/feature/')
     needs: packer-test
-    runs-on: xterns
+    runs-on: ubuntu-latest
     environment: testing
 
     steps: 
