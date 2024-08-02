@@ -131,7 +131,7 @@ jobs:
           issue-body: |
             Workflow is pending manual review.
             URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-            Required approvers: [darey-io, uzukwujp]
+            Required approvers: [mattyrukee]
             Respond "approved", "approve", "lgtm", "yes" to continue workflow or "denied", "deny", "no" to cancel.
 
       - name: Install or Update AWS CLI
